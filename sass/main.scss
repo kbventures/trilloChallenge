@@ -1,12 +1,25 @@
-$color-primary: #eb2f64;
-$color-primary-light: #ff3366;
-$color-primary-dark: #bf265d;
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
 
-$color-grey-light-1: #faf9f9;
-$color-grey-light-2: #f4f2f1;
-$color-grey-light-3: #f0eeee;
-$color-grey-dark-4: #999;
+@import 'base/base';
+// @import 'base/animations';
+@import 'base/typography';
+// @import 'base/utilities';
 
-$color-grey-dark-1: #333;
-$color-grey-dark-2: #777;
-$color-grey-dark-3: #999;
+// @import 'components/social-icons';
+// @import 'components/button';
+// @import 'components/composition';
+// @import 'components/feature-box';
+// @import 'components/form';
+// @import 'components/story';
+// @import 'components/card';
+// @import 'components/popup';
+
+// @import 'layout/navigation';
+// @import 'layout/footer';
+
+// @import 'layout/grid';
+// @import 'layout/header';
+
+// @import 'pages/home';

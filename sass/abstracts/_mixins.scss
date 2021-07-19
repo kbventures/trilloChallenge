@@ -1,23 +1,23 @@
 // MEDIA QUERY MANAGER
 
 /*
-  0-600px;        PHONE
-  600 - 900px;    Tablet portrait
-  900 - 1200px;   Tablet landscape
-  [1200-1800] is where normal styles apply
-  1800px + :      Big Desktop
-  */
+0-600px;        PHONE
+600 - 900px;    Tablet portrait
+900 - 1200px;   Tablet landscape
+[1200-1800] is where normal styles apply
+1800px + :      Big Desktop
+*/
 
 /*
-  $breakpoint argument choices:
-  - phone
-  - tab-port
-  - tab-land
-  - big-desktop
-  
-  ORDER: BASE + Typography > General Layout + Grid > Page Layout > Components
-  
-  */
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: BASE + Typography > General Layout + Grid > Page Layout > Components
+
+*/
 
 // For Media queries teh rem isn't equal to the root setup(ie:
 // In our case 10px but instead browser default 16px
